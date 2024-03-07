@@ -1,0 +1,174 @@
+
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v40-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+  src: url('../fonts/OpenSansCondensed-Bold.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+main {
+  flex-grow: 2;
+}
+.main-div {
+  flex-grow: 1;
+  background-color:#0EB4C1;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-left: 50px;
+  max-width: 1200px;
+  width: 1440px;
+  height: 533px;
+  
+}
+
+.top-img {
+  display: inline-block;
+  margin-left: 847px;
+  margin-top: 112px;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-left: 50px;
+  max-width: 1200px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-logo span {
+  font-weight: 600;
+  font-size: 24px;
+  color: #222222;
+}
+
+.site-logo:hover {
+  color: #de2e54;
+  background-color: #fff;
+}
+.site-logo:active {
+  color: #fff;
+  background-color: #de2e54;
+}
+
+.sitenav-list {
+  display: flex;
+  gap: 32px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.sitenav-link {
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.sitenav-link:hover {
+  color: #de2e54;
+  background-color: #fff;
+}
+.sitenav-link:active {
+  color: #fff;
+  background-color: #de2e54;
+}
+.header-cta {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #DE2E54;
+  border-radius: 8px;
+  font-family: "Open Sans Condensed";
+  color: #fff;
+}
+
+.header-cta:hover {
+  color: #de2e54;
+  background-color: #fff;
+}
+.header-cta:active {
+  color: #fff;
+  background-color: #de2e54;
+}
+
+.top-as {
+  margin-left: 17px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
